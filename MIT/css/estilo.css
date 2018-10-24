@@ -1,0 +1,104 @@
+/* formatação css */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+/* css navbar */
+
+.link-navbar{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:2px 0px;
+    border-left: solid white 1px;
+    
+}
+
+/* fim css navbar */
+
+
+/* css area principal */
+
+.fundo{
+    background-color: black;
+}
+
+.espacamento{
+    padding-top: 70px;
+}
+
+.titulo{
+    font-size: 25px;
+    color: white;
+    padding-bottom:10px;
+}
+
+.texto{
+    font-size: 15px;
+    color: white;
+    
+}
+
+/* controla botao que move ate o topo */
+
+.ir-para-topo{
+	text-align: right;
+	position:fixed;
+	right: 30px;
+	bottom: -22px;
+	height: 100px;
+	width: 100px;
+}
+
+.ir-para-topo a{
+	background-color: #129cf3;
+	padding: 25px;
+	border-radius: 80%;
+	-webkit-border-radius: 80%;
+	-moz-border-radius: 80%;
+	-ms-border-radius: 80%;
+	-o-border-radius: 80%;
+}
+
+.ir-para-topo a i {
+	color: #fff;
+	font-size: 25px;
+}
+
+/* Css Footer */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+p{
+	font-size: 18px;
+}
+footer{
+	background-color: #000;
+	color: #fff;
+}
+.footer-left-col{
+	text-align: left;
+	float: left;
+	padding: 15px;
+}
+.footer-right-col{
+	text-align: center;
+	padding: 15px;
+	
+}
