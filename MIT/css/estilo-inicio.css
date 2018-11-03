@@ -1,0 +1,20 @@
+.fundo{
+    background-image: url(../img/fundo-inicio.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.animate-svg{
+    padding-top: 150px
+   
+}
+
+.animate-svg svg g text {
+    stroke-width: 20px !important;
+    stroke: black !important;
+    stroke-dasharray:0;
+    stroke-dashoffset:0;
+    fill: none;
+}

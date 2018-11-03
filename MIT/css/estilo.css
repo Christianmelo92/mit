@@ -13,38 +13,71 @@ body{
 
 
 /* css navbar */
+.navbar-color{
+	background-color: rgba(0, 0, 0, 0.192) !important;
+	width: 100%;
+	
+}
 
 .link-navbar{
     padding-left: 10px;
     padding-right: 10px;
     margin:2px 0px;
-    border-left: solid white 1px;
-    
+	border-left: solid white 1px;
 }
+
+.text-link-navbar{
+	color: white !important;
+}
+
+
+
 
 /* fim css navbar */
 
 
-/* css area principal */
+/* css area da seçoesl */
 
-.fundo{
-    background-color: black;
+.fundo-secao1{
+	background-image: url(../img/museu.jpg);
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	
 }
 
-.espacamento{
-    padding-top: 70px;
+.btn-secao-posicao{
+	height: 100px;
+	width: 100px;
+	padding-left:50px ;
+
 }
+
+.btn-secao-posicao button{
+	background-color: #fffa00;
+	padding: 18px;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	-o-border-radius: 100%;
+}
+
+.btn-secao-posicao button i{
+	color: #fff;
+	font-size: 18px;
+	
+}
+
 
 .titulo{
-    font-size: 25px;
+    font-size: 45px;
     color: white;
-    padding-bottom:10px;
-}
-
-.texto{
-    font-size: 15px;
-    color: white;
-    
+	padding-bottom:10px;
+	padding-left:50px ;
+	padding-top: 68vh;
 }
 
 /* controla botao que move ate o topo */
@@ -59,13 +92,13 @@ body{
 }
 
 .ir-para-topo a{
-	background-color: #129cf3;
-	padding: 25px;
+	background-color: #fffa00;
+	padding: 18px;
 	border-radius: 80%;
-	-webkit-border-radius: 80%;
-	-moz-border-radius: 80%;
-	-ms-border-radius: 80%;
-	-o-border-radius: 80%;
+	-webkit-border-radius:80%;
+	-moz-border-radius:80%;
+	-ms-border-radius:80%;
+	-o-border-radius:80%;
 }
 
 .ir-para-topo a i {
@@ -74,11 +107,6 @@ body{
 }
 
 /* Css Footer */
-
-*{
-	margin: 0;
-	padding: 0;
-}
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;
