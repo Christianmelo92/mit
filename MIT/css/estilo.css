@@ -107,7 +107,7 @@ body{
 
 .link-navegacao{
 	text-align: center;
-	padding-top: 8vh;
+	
 }
 
 .link-navegacao a {
@@ -161,7 +161,8 @@ body{
 /* Mapa */
 
 .mapa{
-	padding: 0px;
+	padding: 0px !important;
+	margin: 0px;
 }
 
 /* fim */
