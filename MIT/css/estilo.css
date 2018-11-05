@@ -11,6 +11,10 @@ body{
 	overflow-x: hidden;
 }
 
+.row{
+	margin: 0px;
+}
+
 /* css navbar */
 .navbar-color{
 	background-color: rgba(0, 0, 0, 0.192) !important;
@@ -125,6 +129,10 @@ body{
 	background-color: rgba(0, 0, 0, 0.658);
 }
 
+.popup-posicao{
+	padding-top: 75px;
+}
+
 .popup-titulo{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 25px;
@@ -139,6 +147,10 @@ body{
 	color: white;
 	text-align: left;
 	margin: 15px;
+}
+
+.btn-fechar{
+	color: white;
 }
 
 
