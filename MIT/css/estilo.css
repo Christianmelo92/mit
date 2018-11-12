@@ -7,7 +7,7 @@
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;
-	overflow-y: scroll;
+	overflow-y: hidden;
 	overflow-x: hidden;
 }
 
@@ -100,7 +100,7 @@ body{
 }
 
 .btn-secao-posicao button i{
-	color: #fff;
+	color: #000000;
 	font-size: 18px;
 	
 }
@@ -188,7 +188,7 @@ body{
 }
 
 .ir-para-topo a i {
-	color: #fff;
+	color: #000000;
 	font-size: 25px;
 }
 
@@ -206,13 +206,108 @@ footer{
 	background-color: #000;
 	color: #fff;
 }
+
+.padb{
+	padding-left: 0px;
+	padding-top: 10px;
+}
+
+footer .container-fluid{
+	padding-left: 0;
+}
+
 .footer-left-col{
 	text-align: left;
 	float: left;
-	padding: 15px;
 }
 .footer-right-col{
 	text-align: center;
-	padding: 15px;
 	
 }
+
+/* botoes das redes sociais */
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+.botoes {
+  list-style: none;
+  top: 50%;
+  left: 0%;
+}
+
+.botoes li a {
+  display: block;
+  margin-left: -2px;
+  height: 60px;
+  width: 60px;
+  border-radius: 0 25px 25px 0;
+  border: 2px solid #000;
+  margin-bottom: 0.5em;
+  background: #FFF;
+  transition: all .4s ease;
+  color: #2980b9;
+  text-decoration: none;
+  line-height: 60px;
+}
+
+.botoes li a:hover {
+  cursor: pointer;
+  width: 180px;
+  color: #fff;
+}
+
+.botoes li a:hover span {
+  left: 0;
+}
+
+.botoes li a span {
+  padding: 0 30px 0 15px;
+  position: absolute;
+  left: -120px;
+  transition: left .4s ease;
+}
+
+.botoes li a .fa {
+	font-size: 20px;
+	padding: 0 30px 0 15px;
+	transition: .4s;
+}
+
+.botoes li a:hover .fa {
+	color: #FFF;
+	padding-left: 130px;
+}
+
+
+.botoes li .facebook {
+  background: rgba(39, 174, 96, 0.1);
+  border-color: #27ae60;
+  color: #27ae60;
+}
+
+.botoes li .facebook:hover {
+  background: #27ae60;
+}
+
+.botoes li .instagram {
+  background: rgba(230, 126, 34, 0.1);
+  border-color: #e67e22;
+  color: #e67e22;
+}
+
+.botoes li .instagram:hover {
+  background: #e67e22;
+}
+
+.botoes li .twitter {
+  background: rgba(34, 167, 240, 0.1);
+  border-color: #22A7F0;
+  color: #22A7F0;
+}
+
+.botoes li .twitter:hover {
+  background: #22a7f0;
+}
+
+
