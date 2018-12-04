@@ -30,7 +30,7 @@
     <!-- Inicio nav bar -->
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-color">
-        <h1 class="logo">MIT</h1>
+        <img class="logo" src="img/logo.png" alt="logo">
         <button class="navbar-toggler p0" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,20 +38,17 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbar">
             <ul class="navbar-nav">
+                    <li class="nav-item link-navbar">
+                            <a class="nav-link text-link-navbar" href="index.html">Inicio</a>
+                        </li>
                 <li class="nav-item link-navbar">
-                    <a class="nav-link text-link-navbar" target="blank" href="http://velasco.com.br/museu">Blog </a>
+                    <a class="nav-link text-link-navbar" target="blank" href="http://velasco.com.br/museu/blog">Blog</a>
                 </li>
                 <li class="nav-item link-navbar">
-                    <a class="nav-link text-link-navbar" href="#">NNN</a>
+                    <a class="nav-link text-link-navbar" target="blank" href="http://velasco.com.br/museu">Acervo</a>
                 </li>
                 <li class="nav-item link-navbar">
-                    <a class="nav-link text-link-navbar" href="#">NNN</a>
-                </li>
-                <li class="nav-item link-navbar">
-                    <a class="nav-link text-link-navbar" href="#">NNN</a>
-                </li>
-                <li class="nav-item link-navbar">
-                    <a class="nav-link text-link-navbar" href="#">NNN</a>
+                    <button type="button" class="nav-link btn-doacoes" data-toggle="modal" data-target=".doacoes">Doações</button>
                 </li>
             </ul>
         </div>
@@ -121,10 +118,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12 link-navegacao">
-                <a class="link-navegacao" href="#secao-blog"><i class="fa fa-angle-down "></i></a>
-            </div>
+        
         </div>
     </section>
 
@@ -147,17 +141,13 @@
                     <div>
                         <a href="http://velasco.com.br/museu" target="blank" class="btn-blog btn-warning">Conheça-nos</a>
                     </div>
-                    </div>
                 </div>
             </div>
         </div>
-
-
-        <div class="row">
-            <div class="col-md-12 link-navegacao">
-                <a class="link-navegacao" href="#secao2"><i class="fa fa-angle-down "></i></a>
-            </div>
         </div>
+
+
+       
         </div>
 
     </section>
@@ -227,11 +217,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12 link-navegacao">
-                <a class="link-navegacao" href="#secao3"><i class="fa fa-angle-down "></i></a>
-            </div>
-        </div>
+       
     </section>
 
     <!-- terceira seçao central  -->
@@ -297,10 +283,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12 link-navegacao">
-                <a class="link-navegacao" href="#rodape"><i class="fa fa-angle-down "></i></a>
-            </div>
+        
         </div>
     </section>
     <!--===MAPA===-->
@@ -325,7 +308,7 @@
     <footer id="rodape">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 padb">
+                <div class="col-md-6 padl">
                     <ul class="botoes">
                         <li>
                             <a href="https://facebook.com/mvsec" target="blank" class="facebook"><span>Facebook</span><i
@@ -343,6 +326,43 @@
                 </div>
 
                 <div class="col-md-6 ">
+
+                    <button type="button" class="btn btn-warning btn-secao btn-footer"><a class="link-footer" href="termos.html"
+                            target="blank">política de segurança</a></button>
+
+                    <button type="button" class="btn btn-warning btn-secao btn-footer"><a class="link-footer" href="quem-somos.html"
+                            target="blank">Quem somos</a></button>
+
+                    <button type="button" class="btn btn-warning btn-secao btn-footer" data-toggle="modal" data-target=".doacoes">Doações</button>
+                    <div class="modal fade doacoes popup-posicao" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content popup-backgroud">
+                                <div class="modal-header">
+                                    <p class="popup-titulo">Doações</p>
+                                    <button type="button" class="close btn-fechar" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="popup-texto">Não Jogue seus computadores e video games antigos fora, faça
+                                        uma doação para o Museu da Informática e ajude a manter a memória e história
+                                        dos eletrônicos.</p>
+
+                                    <p class="popup-texto"> Todos os equipamentos antigos, protótipos, impressoras,
+                                        periféricos, softwares, fitas K7, disquetes, livros, revistas e manuais serão
+                                        bem vindos.</p>
+
+                                    <p class="popup-texto">Por favor, entre em contato com:</p>
+
+                                    <p class="email">mv@velasco.com.br</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-made">MIT &copy Desenvolvido pelos alunos do Curso Técnico de informática (ETPC)</p>
+
 
                 </div>
             </div>

@@ -7,7 +7,7 @@
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;
-	overflow-y: hidden;
+	
 	overflow-x: hidden;
 }
 
@@ -15,6 +15,9 @@ body{
 	margin: 0px;
 }
 
+.container-fluid{
+	padding: 0 !important;
+}
 
 /* css navbar */
 .navbar-color{
@@ -37,10 +40,17 @@ body{
 }
 
 .logo{
-	font-size: 45px;
-    color: white;
+	width: 150px;
+	height: 60px;
 }
 
+.btn-doacoes{
+	border: none;
+	background-color: transparent;
+	color: white !important;
+	margin: 0px !important;
+	
+}
 
 
 /* fim css navbar */
@@ -137,17 +147,8 @@ body{
 	
 }
 
-.link-navegacao{
-	text-align: center;
 	
-}
 
-.link-navegacao a {
-
-	font-size: 70px;
-	color: white;
-	
-}
 
 .titulo{
     font-size: 45px;
@@ -226,28 +227,44 @@ body{
 
 /* Css Footer */
 
-body{
-	font-family: 'Source Sans Pro', sans-serif;
-	overflow-y: scroll;
-	overflow-x: hidden;
-}
-p{
-	font-size: 18px;
-}
 footer{
 	background-color: #000;
 	color: #fff;
 }
 
-.padb{
+.padl{
 	padding-left: 0px;
-	padding-top: 10px;
+
 }
 
-.container-fluid{
-	padding: 0 !important;
+.text-made{
+	font-size: 20px;
+	padding-top: 80px;
+}
+.link-footer{
+	font-size: 15px;
+	color: black;
+	
 }
 
+.link-footer:link{
+	text-decoration: none;
+	color: black !important ;
+	
+}
+
+.btn-footer{
+	margin-bottom: 15px;	
+	margin-right: 50px;
+	margin-top: 50px;
+	background-color: #fffa00;
+}
+
+.email{
+	color: #fffa00;
+	margin: 15px;
+	font-size: 18px;
+}
 
 /* botoes das redes sociais */
 

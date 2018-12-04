@@ -1,0 +1,15 @@
+.titulo-quem-somos{
+    padding-top: 120px; 
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.navbar-color{
+    background-color: rgba(0, 0, 0, 0.726) !important;
+    position: relative !important;
+}
+
+.ultimo-paragrafo{
+    margin-bottom: 80px;
+}
